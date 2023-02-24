@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Filmes API</title>
+</head>
+
+<body>
+    <main>
+        <h1>Pesquise aqui um filme pelo titulo e/ou ano</h1>
+        <div class="form">
+            <input type="text" name="title" id="title" placeholder="Digite o titulo do filme">
+            <input type="text" name="year" id="year" placeholder="Digite o ano do filme">
+        </div>
+        <button onclick="findFilm()" id="submit">Pesquisar</button>
+        <div class="film" id="film">
+            <h2 class="title-film"></h2>
+            <img src="" alt="" class="img-film">
+            <p class="year-film"></p>
+            <p class="genre"></p>
+            <p class="description"></p>
+            <div class="info-film">
+                <p class="duration"></p>
+                <p class="avaliation"></p>
+                <p class="votes"></p>
+            </div>
+
+        </div>
+    </main>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
